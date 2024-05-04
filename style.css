@@ -1,0 +1,76 @@
+.title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.desc {
+  font-size: 14px;
+  text-align: center;
+  margin-top: -10px;
+}
+
+label {
+  display: block;
+  text-align: center;
+}
+
+textarea {
+  margin: 0 auto;
+  width: 100%; 
+}
+
+legend {
+  text-align: center; 
+}
+fieldset {
+  text-align: center;
+}
+
+
+
+input[type="text"] {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input[type="email"] {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input[type="number"] {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+select {
+  display: block;
+  width: 19%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input {
+  display: block;
+}
+
+input[type="radio"] {
+  vertical-align: middle;
+  display: inline-block; 
+  margin-right: 5px; 
+}
+
+form {
+  width: 100vw;
+  max-width: 500px;
+  min-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 5em;
+}
+
+.inline {
+  display: inline;
+}
