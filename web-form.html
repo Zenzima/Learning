@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <html>
+    <head> 
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="styles.css">
+      <title> Registration Form
+      </title>
+       </head>
+  <h1 id="title" class="title"> Register Your Interest for Roles in Infrastructure Engineering </h1>
+  <p id="description" class="desc"> for Senior Executives </p>
+
+    <body>
+      <form id="survey-form">
+        <fieldset>
+        <label id="name-label" for="name-label"> First Name: <input id="name" type="text" placeholder="enter here" required>
+        <label for="surname"> Surname: <input id="surname" type="text" placeholder="enter here" required>
+        <label id="email-label" for="email"> Email: <input id="email" type="email" placeholder="enter here" required>
+        <label id="number-label" for"number"> Contact Number: <input id="number" type="number" min="00000000001" max="99999999999" placeholder="enter here">
+        </fieldset>
+
+        <fieldset>
+        <label for="dropdown"> Select your notice period: <select id="dropdown">
+          <option> Immediate </option>
+          <option> Four Weeks </option>
+          <option> Negotiable </option>
+          </select>
+          <legend> What is your salary expectation? </legend> 
+          <label for="40-60"> <input id="40-60" value="0" type="radio" name="salary-expectation" class="inline" checked > £40k - £60k </label>
+         
+        <label for="61-81"> <input id="61-81" type="radio" value="1" name="salary-expectation" class="inline" > £61k - £71k </label>
+                    <label for="82-103"> <input id="82-103" type="radio" value="3" name="salary-expectation" class="inline" > £82k - £103k </label>
+
+             <label for="103+"> <input id="103+" type="radio" value="4" name="salary-expectation" class="inline" > £103k+ </label>
+             
+<fieldset>
+    <legend> Select your areas of expertise: </legend>
+    <label for="checkbox0"> <input id="checkbox0" class="inline" type="checkbox" name="checkbox" value="checkbox0"> Procurement </label>
+    <label for="checkbox1"> <input id="checkbox1" class="inline" type="checkbox" name="checkbox" value="checkbox1"> Civil Engineering </label> <br>
+    <label for="checkbox2"> <input id="checkbox2" class="inline" type="checkbox" name="checkbox" value="checkbox2"> Structural Engineering </label> <br>
+    <label for="checkbox3"> <input id="checkbox3" class="inline" type="checkbox" name="checkbox" value="checkbox3"> Transportation Engineering </label> <br>
+    <label for="checkbox4"> <input id="checkbox4" class="inline" type="checkbox" name="checkbox" value="checkbox4"> Environmental Engineering </label> <br>
+    <label for="checkbox5"> <input id="checkbox5" class="inline" type="checkbox" name="checkbox" value="checkbox5"> Geotechnical Engineering </label> <br>
+</fieldset>
+
+
+
+<fieldset>
+<label for="comments"> Enter any additional specialisms below and information that can help us find you a suited role: <textarea id="comments" name="comments" rows="5" cols="auto"> </textarea> </label>
+</fieldset>
+
+<fieldset>
+<label for="submit"> By clicking Submit you are agreeing to the Terms and Conditions. <input id="submit" type="submit" class="inline" value="Submit" required> </label>
+</fieldset>
+        </form>
+        
